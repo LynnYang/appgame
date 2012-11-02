@@ -18,6 +18,7 @@
 		31BA9463164439FF004C21F0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31BA9462164439FF004C21F0 /* Default-568h@2x.png */; };
 		31BA9466164439FF004C21F0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31BA9464164439FF004C21F0 /* MainStoryboard.storyboard */; };
 		31BA9469164439FF004C21F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BA9468164439FF004C21F0 /* ViewController.m */; };
+		31BA947116443A51004C21F0 /* ClassicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BA947016443A51004C21F0 /* ClassicViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		31BA9465164439FF004C21F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		31BA9467164439FF004C21F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		31BA9468164439FF004C21F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31BA946F16443A51004C21F0 /* ClassicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClassicViewController.h; path = ../ClassicViewController.h; sourceTree = "<group>"; };
+		31BA947016443A51004C21F0 /* ClassicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClassicViewController.m; path = ../ClassicViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				31BA9464164439FF004C21F0 /* MainStoryboard.storyboard */,
 				31BA9467164439FF004C21F0 /* ViewController.h */,
 				31BA9468164439FF004C21F0 /* ViewController.m */,
+				31BA946F16443A51004C21F0 /* ClassicViewController.h */,
+				31BA947016443A51004C21F0 /* ClassicViewController.m */,
 				31BA9453164439FF004C21F0 /* Supporting Files */,
 			);
 			path = appgame;
@@ -176,6 +181,7 @@
 				31BA9459164439FF004C21F0 /* main.m in Sources */,
 				31BA945D164439FF004C21F0 /* AppDelegate.m in Sources */,
 				31BA9469164439FF004C21F0 /* ViewController.m in Sources */,
+				31BA947116443A51004C21F0 /* ClassicViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
