@@ -9,12 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface ClassicViewController : UIViewController{
+    //what defined her can only be used in class
     int arrindex;
     int score;
     int arry[30];
     NSTimer *classictimer;
     NSInteger gameState;
 }
+//property can be used out of class. 
 @property (weak, nonatomic) IBOutlet UIView *gameover;
 @property (weak, nonatomic) IBOutlet UILabel *gameoverlabel;
 @property (weak, nonatomic) IBOutlet UIButton *goback;
